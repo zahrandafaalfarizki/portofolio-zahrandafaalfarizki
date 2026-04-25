@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zahran Portfolio</title>
+
+<!-- ICON PROFESSIONAL -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+h1, h2 {
+  color: #facc15;
+}
+
+.profile img {
+  width: 130px;
+  border-radius: 50%;
+  border: 3px solid #facc15;
+}
+
+/* SOCIAL ICON */
+.social {
+  margin-top: 10px;
+}
+.social a {
+  color: white;
+  font-size: 20px;
+  margin-right: 15px;
+  transition: 0.3s;
+}
+.social a:hover {
+  color: #facc15;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  background: #facc15;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* SKILL */
+.skill {
+  margin-bottom: 10px;
+}
+.bar {
+  height: 8px;
+  background: #334155;
+  border-radius: 5px;
+}
+.fill {
+  height: 8px;
+  background: #facc15;
+  border-radius: 5px;
+}
+
+@media(max-width:768px){
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="grid">
+
+    <!-- LEFT -->
+    <div>
+
+      <div class="card profile">
+        <img src="foto.jpg">
+
+        <h1>Zahran Dafa Alfa Rizki</h1>
+        <p>Fresh Graduate | Production & Warehouse</p>
+
+        <a href="CV_Zahran.pdf" class="btn" download>
+          <i class="fa-solid fa-download"></i> Download CV
+        </a>
+
+        <!-- SOCIAL ICON -->
+        <div class="social">
+          <a href="https://linkedin.com/in/zahrandafaalfarizki"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/dafz"><i class="fa-brands fa-github"></i></a>
+          <a href="https://instagram.com/z.dafa98_"><i class="fa-brands fa-instagram"></i></a>
+          <a href="mailto:zahrandafaalfarizki@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+
+      </div>
+
+      <div class="card">
+        <h2>Contact</h2>
+        <p><i class="fa-solid fa-phone"></i> +6285890090760</p>
+        <p><i class="fa-solid fa-envelope"></i> zahrandafaalfarizki@gmail.com</p>
+        <p><i class="fa-solid fa-location-dot"></i> Karawang, West Java</p>
+      </div>
+
+    </div>
+
+    <!-- RIGHT -->
+    <div>
+
+      <div class="card">
+        <h2>About Me</h2>
+        <p>
+        I am a motivated fresh graduate with experience in school organization, particularly in communication and coordination roles. I am detail-oriented, disciplined, and able to work effectively in a team.
+
+I have basic knowledge in quality control, administrative tasks, and computer operation (Microsoft Word & Excel). I am ready to work as a Production Operator or Warehouse Staff, including shift work, with a strong commitment to quality, accuracy, and productivity.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Skills</h2>
+
+        <div class="skill">Quality Control<div class="bar"><div class="fill" style="width:70%"></div></div></div>
+        <div class="skill">Ms Word & Excel<div class="bar"><div class="fill" style="width:60%"></div></div></div>
+        <div class="skill">Administrasi<div class="bar"><div class="fill" style="width:70%"></div></div></div>
+        <div class="skill">Canva & Capcut<div class="bar"><div class="fill" style="width:75%"></div></div></div>
+        <div class="skill">Teamwork<div class="bar"><div class="fill" style="width:80%"></div></div></div>
+
+      </div>
+
+      <div class="card">
+        <h2>Education</h2>
+        <p><b>MA Nihayatul Amal Purwasari</b></p>
+        <p>IPA | 2022 - 2025</p>
+        <p> Nilai IPK 86,76<p>
+      </div>
+
+      <div class="card">
+        <h2>Experience</h2>
+        <ul>
+          <li>OSIS KOMINFO - Mengelola konten</li>
+          <li>Kordinator lomba liga OSIS</li>
+          <li>Meningkatkan peserta hingga 30%</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
